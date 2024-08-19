@@ -7,6 +7,7 @@ const ApiCallView = () => {
 
     const getAPICall = async () => {
 
+        // Added Comment 
         const uri = 'https://jsonplaceholder.typicode.com/posts'
         let result = await fetch(uri)
         result = await result.json()
